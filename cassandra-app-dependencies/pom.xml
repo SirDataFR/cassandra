@@ -17,8 +17,8 @@
 
     <properties>
         <spring-integration-cassandra.version>0.5.0.RELEASE</spring-integration-cassandra.version>
-        <cassandra-all.version>2.1.5</cassandra-all.version>
-        <cassandra-unit-spring.version>2.1.9.2</cassandra-unit-spring.version>
+        <cassandra-all.version>3.9</cassandra-all.version>
+        <cassandra-unit-spring.version>3.1.1.0</cassandra-unit-spring.version>
     </properties>
 
     <dependencyManagement>

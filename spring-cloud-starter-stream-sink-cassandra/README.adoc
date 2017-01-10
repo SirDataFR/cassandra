@@ -17,7 +17,7 @@ $$cassandra.cluster.keyspace$$:: $$The keyspace name to connect to.$$ *($$String
 $$cassandra.cluster.metrics-enabled$$:: $$Enable/disable metrics collection for the created cluster.$$ *($$Boolean$$, default: `$$<none>$$`)*
 $$cassandra.cluster.password$$:: $$The password for connection.$$ *($$String$$, default: `$$<none>$$`)*
 $$cassandra.cluster.port$$:: $$The port to use to connect to the Cassandra host.$$ *($$Integer$$, default: `$$<none>$$`)*
-$$cassandra.cluster.schema-action$$:: $$The schema action to perform.$$ *($$SchemaAction$$, default: `$$<none>$$`, possible values: `NONE`,`CREATE`,`RECREATE`,`RECREATE_DROP_UNUSED`)*
+$$cassandra.cluster.schema-action$$:: $$The schema action to perform.$$ *($$SchemaAction$$, default: `$$<none>$$`, possible values: `NONE`,`CREATE`,`CREATE_IF_NOT_EXISTS`,`RECREATE`,`RECREATE_DROP_UNUSED`)*
 $$cassandra.cluster.username$$:: $$The username for connection.$$ *($$String$$, default: `$$<none>$$`)*
 $$cassandra.consistency-level$$:: $$The consistencyLevel option of WriteOptions.$$ *($$ConsistencyLevel$$, default: `$$<none>$$`, possible values: `ANY`,`ONE`,`TWO`,`THREE`,`QUOROM`,`LOCAL_QUOROM`,`EACH_QUOROM`,`ALL`,`LOCAL_ONE`,`SERIAL`,`LOCAL_SERIAL`)*
 $$cassandra.ingest-query$$:: $$The ingest Cassandra query.$$ *($$String$$, default: `$$<none>$$`)*
